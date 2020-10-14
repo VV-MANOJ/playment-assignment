@@ -1,8 +1,11 @@
 ***Overview***: 
 1. Assuming we three services: 
-        -> producer - frontend
-        -> queueprocessor - rabbitmq
-        -> consumer - backend
+      
+        producer - frontend 
+        
+        queueprocessor - rabbitmq
+        
+        consumer - backend
 2. If the frontend is producing more messages than what the backend can handle, those messages are buffered in the rabbitmq.
 3. We have some admin panel to see RabbitMQ pending messages. At the same time we should also enable /metric endpoint to expose the number of pending messages in the queue
 
