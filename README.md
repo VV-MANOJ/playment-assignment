@@ -12,3 +12,6 @@ Setup:
 
 
 Reference Taken: hello and world app code is taking from https://github.com/crowdflux/python-flask-docker-hello-world.
+
+***Output***
+![alt text](https://github.com/VV-MANOJ/playment-assignment/blob/main/ouput.png)
